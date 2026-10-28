@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Order food from Fofanah's Restaurant for pickup or free delivery.">
+  <title>Place your order | Fofanah&rsquo;s Restaurant</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open or close the menu">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="./images/logo.jpg" alt="Fofanah's Restaurant logo" width="64" height="64">
+        <span>Fofanah&rsquo;s Restaurant</span>
+      </a>
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html" class="nav-order active" aria-current="page">Order Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="container">
+      <div class="page-title">
+        <h1>Place your order</h1>
+        <p class="lead">Choose your dishes, then tell us how you want to receive them.</p>
+      </div>
+      <form action="confirmation.html" method="get">
+        <div class="order-grid">
+          <div>
+            <fieldset class="order-list">
+              <legend class="section-title">1. Choose your dishes</legend>
+            <label class="card order-item">
+              <span class="order-item-top">
+                <input type="checkbox" name="dish" value="Jollof rice">
+                <span>Jollof rice</span>
+                <span class="price">Nle 50</span>
+              </span>
+              <small>Smoky rice with chicken</small>
+            </label>
+            <label class="card order-item">
+              <span class="order-item-top">
+                <input type="checkbox" name="dish" value="Groundnut stew">
+                <span>Groundnut stew</span>
+                <span class="price">Nle 60</span>
+              </span>
+              <small>Served with rice</small>
+            </label>
+            <label class="card order-item">
+              <span class="order-item-top">
+                <input type="checkbox" name="dish" value="Grilled fish">
+                <span>Grilled fish</span>
+                <span class="price">Nle 80</span>
+              </span>
+              <small>Local spices with rice</small>
+            </label>
+            <label class="card order-item">
+              <span class="order-item-top">
+                <input type="checkbox" name="dish" value="Cassava leaves">
+                <span>Cassava leaves</span>
+                <span class="price">Nle 55</span>
+              </span>
+              <small>Slow cooked with palm oil</small>
+            </label>
+            </fieldset>
+            <p class="order-total">Your total: confirmed by our team when you submit (delivery is free).</p>
+            <p class="lead">Want something else from the menu? <a href="menu.html">See the full menu</a> or call <a href="tel:+23234821518">+232 34 821 518</a>.</p>
+          </div>
+
+          <div class="card form-box">
+            <h2>2. Your details</h2>
+            <fieldset class="receive-options">
+              <legend>How do you want to receive it?</legend>
+              <input type="radio" name="receive" id="receive-pickup" value="Pickup">
+              <label for="receive-pickup">Pickup</label>
+              <input type="radio" name="receive" id="receive-delivery" value="Delivery" checked>
+              <label for="receive-delivery">Delivery (free)</label>
+            </fieldset>
+            <div class="form-field">
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname" name="fullname" placeholder="e.g. Mariama Kamara" required>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" placeholder="e.g. 034 821 518" required>
+            </div>
+            <div class="form-field">
+              <label for="address">Delivery address</label>
+              <input type="text" id="address" name="address" placeholder="e.g. Office, street, Freetown">
+            </div>
+            <div class="form-field">
+              <label for="time">Time you want it</label>
+              <input type="text" id="time" name="time" placeholder="e.g. 1:15 pm">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Fofanah&rsquo;s Restaurant</h2>
+        <p>Authentic Sierra Leonean Food, Made Fresh Every Day</p>
+        <p>Follow us on social media</p>
+       <!-- Social Media Links Section -->
+    <div class="social-container">
+      <h3 style="color:white; margin-bottom:14px; font-size:16px; opacity:0.85;"></h3>
+      <div>
+        <a href="https://wa.me/23234821518" target="_blank" rel="noopener noreferrer" class="social-link whatsapp">
+          📱 WhatsApp
+        </a>
+        <a href="https://www.facebook.com/fofanah'srestaurant" target="_blank" rel="noopener noreferrer" class="social-link facebook">
+          📘 Facebook
+        </a>
+        <a href="https://www.instagram.com/fofanah'srestaurant" target="_blank" rel="noopener noreferrer" class="social-link instagram">
+          📸 Instagram
+        </a>
+        <a href="https://www.youtube.com/@fofanah'srestaurant" target="_blank" rel="noopener noreferrer" class="social-link youtube">
+          ▶️ YouTube
+        </a>
+      </div>
+    </div>
+      </div>
+      <div>
+        <h2>Quick links</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="order.html">Order Now</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p><a href="tel:+23234821518">+232 34821518</a></p>
+        <p><a href="mailto:info@fofanahsrestaurant.com">info@fofanahsrestaurant.com</a></p>
+      </div>
+      <div>
+        <h2>Opening Hours</h2>
+        <p>Monday - Saturday<br>8:00 am to 12:00 am</p>
+        <p>Sunday<br>12 pm to 6 pm</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Fofanah&rsquo;s Restaurant. All Rights Reserved.</p>
+      <nav aria-label="Legal">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

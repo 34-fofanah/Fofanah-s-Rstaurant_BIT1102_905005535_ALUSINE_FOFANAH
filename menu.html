@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse the Fofanah's Restaurant menu: rice dishes, soups and stews, grilled food and drinks.">
+  <title>Menu | Fofanah&rsquo;s Restaurant</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open or close the menu">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="./images/logo.jpg" alt="Fofanah's Restaurant logo" width="64" height="64">
+        <span>Fofanah&rsquo;s Restaurant</span>
+      </a>
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" class="active" aria-current="page">Menu</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html" class="nav-order">Order Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="container">
+      <div class="page-title">
+        <h1>Our Menu</h1>
+        <p class="lead">Prices are in New Leones (Nle). Dishes may change with fresh ingredients.</p>
+      </div>
+      <div class="menu-section">
+        <input type="radio" name="menu-tab" id="tab-rice" class="tab-radio" checked>
+        <input type="radio" name="menu-tab" id="tab-soups" class="tab-radio">
+        <input type="radio" name="menu-tab" id="tab-grilled" class="tab-radio">
+        <input type="radio" name="menu-tab" id="tab-drinks" class="tab-radio">
+        <div class="tab-labels">
+          <label for="tab-rice">Rice dishes</label>
+          <label for="tab-soups">Soups and stews</label>
+          <label for="tab-grilled">Grilled</label>
+          <label for="tab-drinks">Drinks</label>
+        </div>
+        <div class="menu-panel" id="panel-rice">
+          <div class="grid grid-2">
+              <article class="card menu-item">
+                <img src="./images/jollof rice.jpeg" alt="Jollof rice" width="600" height="400">
+                <div>
+                  <h3>Jollof rice</h3>
+                  <p>Smoky rice with chicken served with fresh salad.</p>
+                  <p class="price">Nle 50</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+              <article class="card menu-item">
+                <img src="./images/fried rice n plantain.jpeg" alt="Fried rice with Plantain" width="600" height="400">
+                <div>
+                  <h3>Fried rice with Plantain</h3>
+                  <p>Egg fried rice with fried plantain.</p>
+                  <p class="price">Nle 20</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+              <article class="card menu-item">
+                <img src="./images/coconut rice.jpeg" alt="Coconut rice" width="600" height="400">
+                <div>
+                  <h3>Coconut rice</h3>
+                  <p>Fragrant rice cooked in coconut milk, served with fish.</p>
+                  <p class="price">Nle 45</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+          </div>
+        </div>
+        <div class="menu-panel" id="panel-soups">
+          <div class="grid grid-2">
+              <article class="card menu-item">
+                <img src="./images/groundnut stew.jpeg" alt="Groundnut stew" width="600" height="400">
+                <div>
+                  <h3>Groundnut stew</h3>
+                  <p>Served with rice and fresh fish.</p>
+                  <p class="price">Nle 60</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+              <article class="card menu-item">
+                <img src="./images/ca" alt="Cassava leaves" width="600" height="400">
+                <div>
+                  <h3>Cassava leaves</h3>
+                  <p>Slow cooked with palm oil, fish and rice.</p>
+                  <p class="price">Nle 55</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+              <article class="card menu-item">
+                <img src="./images/okra .jpeg" alt="Okra soup" width="600" height="400">
+                <div>
+                  <h3>Okra soup</h3>
+                  <p>Fresh okra soup with fish, served with rice.</p>
+                  <p class="price">Nle 55</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+              <article class="card menu-item">
+                <img src="./images/potato leaves.jpeg" alt="Potato leaves" width="600" height="400">
+                <div>
+                  <h3>Potato leaves</h3>
+                  <p>Slow cooked potato leaves with palm oil, fish and rice.</p>
+                  <p class="price">Nle 55</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+          </div>
+        </div>
+        <div class="menu-panel" id="panel-grilled">
+          <div class="grid grid-2">
+              <article class="card menu-item">
+                <img src="./images/grilled fish.jpeg" alt="Grilled fish" width="600" height="400">
+                <div>
+                  <h3>Grilled fish</h3>
+                  <p>Whole fish with local spices and rice.</p>
+                  <p class="price">Nle 80</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+              <article class="card menu-item">
+                <img src="./images/grilled chicken.jpeg" alt="Grilled chicken" width="600" height="400">
+                <div>
+                  <h3>Grilled chicken</h3>
+                  <p>Marinated in local spices, served with rice and salad.</p>
+                  <p class="price">Nle 70</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+          </div>
+        </div>
+        <div class="menu-panel" id="panel-drinks">
+          <div class="grid grid-2">
+              <article class="card menu-item">
+                <img src="./images/lemon-ginger.jpg" alt="Ginger Beer and Fresh Juices" width="600" height="400">
+                <div>
+                  <h3>Ginger Beer and Fresh Juices</h3>
+                  <p>Home made, serve cold. Pineapple or Orange.</p>
+                  <p class="price">Nle 25</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+              <article class="card menu-item">
+                <img src="./images/sorrel drink.jpeg" alt="Sorrel drink" width="600" height="400">
+                <div>
+                  <h3>Sorrel drink</h3>
+                  <p>Home made, serve cold and lightly sweetened.</p>
+                  <p class="price">Nle 20</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+              <article class="card menu-item">
+                <img src="./images/bottle water.jpeg" alt="Bottled water" width="600" height="400">
+                <div>
+                  <h3>Bottled water</h3>
+                  <p>Still water, served cold.</p>
+                  <p class="price">Nle 10</p>
+                  <a class="btn btn-outline btn-small" href="order.html">Add to order</a>
+                </div>
+              </article>
+          </div>
+        </div>
+      </div>
+      <p class="cta-center"><a class="btn btn-primary" href="order.html">Place your order</a></p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h2>Fofanah&rsquo;s Restaurant</h2>
+        <p>Authentic Sierra Leonean Food, Made Fresh Every Day</p>
+        <p>Follow us on social media</p>
+         <!-- Social Media Links Section -->
+    <div class="social-container">
+      <h3 style="color:white; margin-bottom:14px; font-size:16px; opacity:0.85;"></h3>
+      <div>
+        <a href="https://wa.me/23234821518" target="_blank" rel="noopener noreferrer" class="social-link whatsapp">
+          📱 WhatsApp
+        </a>
+        <a href="https://www.facebook.com/fofanah'srestaurant" target="_blank" rel="noopener noreferrer" class="social-link facebook">
+          📘 Facebook
+        </a>
+        <a href="https://www.instagram.com/fofanah'srestaurant" target="_blank" rel="noopener noreferrer" class="social-link instagram">
+          📸 Instagram
+        </a>
+        <a href="https://www.youtube.com/@fofanah'srestaurant" target="_blank" rel="noopener noreferrer" class="social-link youtube">
+          ▶️ YouTube
+        </a>
+      </div>
+    </div>
+      </div>
+      <div>
+        <h2>Quick links</h2>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="order.html">Order Now</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p><a href="tel:+23234821518">+232 34821518</a></p>
+        <p><a href="mailto:info@fofanahsrestaurant.com">info@fofanahsrestaurant.com</a></p>
+      </div>
+      <div>
+        <h2>Opening Hours</h2>
+        <p>Monday - Saturday<br>8:00 am to 12:00 am</p>
+        <p>Sunday<br>12 pm to 6 pm</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Fofanah&rsquo;s Restaurant. All Rights Reserved.</p>
+      <nav aria-label="Legal">
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
