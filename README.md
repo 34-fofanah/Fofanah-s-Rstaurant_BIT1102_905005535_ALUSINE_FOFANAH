@@ -196,7 +196,7 @@ No JavaScript, no frameworks and no external libraries or fonts are used.
 ## Screenshot
 
 ## Home Page
-<img width="1920" height="2055" alt="Home Page  - Copy" src="https://github.com/user-attachments/assets/d0dffab0-00eb-4cd4-9a47-1b1263db0048" />
+<img width="1920" height="2929" alt="Home Page" src="https://github.com/user-attachments/assets/a9f4f351-5818-47f6-860d-157d5e3ada7e" />
 
 ## Menu Page
 <img width="1920" height="1948" alt="Our Menu-Page" src="https://github.com/user-attachments/assets/17180fef-08fb-4d45-884f-ad666cabb11f" />
