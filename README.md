@@ -252,6 +252,5 @@ No JavaScript, no frameworks and no external libraries or fonts are used.
 **[Alusine Fofanah]**
 [905005535] | [BIT1102 Year2 Semester3]
 [Email:fofanahalusine015@gmail.com, GitHub: 34-fofanah]
-file:///C:/Users/DELL/Desktop/Fofanah's-Restaurant/index.html
 
 &copy; 2026 Fofanah's Restaurant. Made for educational purposes.
