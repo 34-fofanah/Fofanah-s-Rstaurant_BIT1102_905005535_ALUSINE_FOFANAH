@@ -195,6 +195,46 @@ No JavaScript, no frameworks and no external libraries or fonts are used.
 
 ## Screenshot
 
+## Home Page
+<img width="1920" height="2055" alt="Home Page  - Copy" src="https://github.com/user-attachments/assets/d0dffab0-00eb-4cd4-9a47-1b1263db0048" />
+
+## Menu Page
+<img width="1920" height="1948" alt="Our Menu-Page" src="https://github.com/user-attachments/assets/17180fef-08fb-4d45-884f-ad666cabb11f" />
+
+## Services Page
+<img width="1920" height="1923" alt="Our Services-Page" src="https://github.com/user-attachments/assets/68244a92-a43b-4b1b-852f-e402b8763f17" />
+
+## About Page
+<img width="1920" height="4047" alt="About-Us-Page" src="https://github.com/user-attachments/assets/c77100e2-bcad-45aa-87be-976cfaaab938" />
+
+## Contact Page
+<img width="1920" height="2746" alt="Contact-Page" src="https://github.com/user-attachments/assets/d64e7f20-a0ae-4504-b3b1-53831a512e2a" />
+
+## Order Page
+<img width="1920" height="1848" alt="Place Your Order-Page" src="https://github.com/user-attachments/assets/5fea24cd-eb90-4e99-8e90-566dbcb823e0" />
+
+## Confirmation Page
+<img width="1920" height="1758" alt="Order confirmed Page" src="https://github.com/user-attachments/assets/9f4f8e4f-9d7e-4074-a9be-07bec34036a0" />
+
+## FAQ Page
+<img width="1920" height="2676" alt="FAQ Page" src="https://github.com/user-attachments/assets/9e88a91b-cbe3-47ad-b1a7-337c55f171dd" />
+
+## Terms of Service Page
+<img width="1920" height="2949" alt="Terms of Services Page" src="https://github.com/user-attachments/assets/30d4d349-d030-40d1-b086-6732f6a072ec" />
+
+## Privacy Policy Page
+<img width="1920" height="2571" alt="Privacy Policy Page" src="https://github.com/user-attachments/assets/a29fb0ec-d3ad-4c22-bb6d-f429e54df38a" />
+
+
+
+
+
+
+
+
+
+
+
 
 ## Known limitations
 
