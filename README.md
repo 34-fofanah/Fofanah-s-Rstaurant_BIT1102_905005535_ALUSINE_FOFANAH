@@ -193,6 +193,9 @@ No JavaScript, no frameworks and no external libraries or fonts are used.
 
 ---
 
+## Screenshot
+
+
 ## Known limitations
 
 - **No back end:** the order form sends you to the confirmation page, but orders are not stored or sent anywhere. The confirmation page shows an example order.
