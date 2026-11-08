@@ -225,16 +225,7 @@ No JavaScript, no frameworks and no external libraries or fonts are used.
 ## Privacy Policy Page
 <img width="1920" height="2571" alt="Privacy Policy Page" src="https://github.com/user-attachments/assets/a29fb0ec-d3ad-4c22-bb6d-f429e54df38a" />
 
-
-
-
-
-
-
-
-
-
-
+---
 
 ## Known limitations
 
